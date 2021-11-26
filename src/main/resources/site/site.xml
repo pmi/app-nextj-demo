@@ -17,19 +17,9 @@
     </mapping>
 
     <mapping controller="/lib/frontend-proxy/proxy.js" order="99">
-      <match>type:'^(?!media:.*$).*'</match>
+      <!--      <match>type:'^(?!(?:media|base):.+$).*'</match>-->
+      <!--      <match>type:'^$'</match>-->
+      <pattern>/__frontendproxy__/.*</pattern>
     </mapping>
-    <!--    <mapping controller="/lib/frontend-proxy/proxy.js" order="99">
-          <pattern>/__frontendproxy__/</pattern>
-        </mapping>
-        <mapping controller="/controllers/info.js" order="50">
-          <match>type:'portal:site'</match>
-        </mapping>
-        <mapping controller="/controllers/preview.js" order="50">
-          <match>type:'.*:person'</match>
-        </mapping>
-        <mapping controller="/controllers/preview.js" order="50">
-          <match>type:'.*:movie'</match>
-        </mapping>-->
   </mappings>
 </site>
