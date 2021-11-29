@@ -19,6 +19,9 @@
       <mapping controller="/lib/frontend-proxy/proxy.js" order="99">
           <pattern>/__frontendproxy__/.*</pattern>
       </mapping>
+      <!--mapping controller="/lib/frontend-proxy/proxy.js" order="99">
+          <match>type:'^(?!(media):.+$).*'</match>
+      </mapping-->
       <mapping controller="/lib/frontend-proxy/proxy.js" order="99">
           <match>type:'^(?!(media|base):.+$).*'</match>
       </mapping>

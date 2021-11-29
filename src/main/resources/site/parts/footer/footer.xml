@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <part xmlns="urn:enonic:xp:model:1.0">
-  <display-name>Person List</display-name>
-  <description>Lists persons in a folder</description>
+  <display-name>Footer</display-name>
+  <description>Some footer text</description>
   <form>
       <input type="TextLine" name="heading">
-          <label>Override heading</label>
+          <label>Heading</label>
       </input>
   </form>
 </part>

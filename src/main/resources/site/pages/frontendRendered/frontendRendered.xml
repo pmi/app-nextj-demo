@@ -9,6 +9,5 @@
     </form>
   <regions>
       <region name="main"/>
-      <region name="another"/>
   </regions>
 </page>
