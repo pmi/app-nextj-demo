@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <page xmlns="urn:enonic:xp:model:1.0">
-  <display-name>Frontend rendered</display-name>
+  <display-name>Next.js frontend</display-name>
   <description>View rendered by external frontend server</description>
     <form/>
   <regions>
