@@ -4,7 +4,7 @@
   <description>Lists persons in a folder</description>
   <form>
       <input type="TextLine" name="heading">
-          <label>Heading</label>
+          <label>Override heading</label>
       </input>
   </form>
 </part>
